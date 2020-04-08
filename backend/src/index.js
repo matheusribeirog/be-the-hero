@@ -9,6 +9,6 @@ app.use(express.json());
 
 app.use(routes);
 
-app.listen(3000,()=>{
+app.listen(4000,()=>{
     console.log("executando na porta 3000")
 })
